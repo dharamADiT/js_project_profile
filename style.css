@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+#main{
+    width: 100%;
+    height: 100%;
+ 
+background-color: #FFF8DC;
+
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#card{
+    width: 18%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0FFFF;
+    gap: 20px;
+    padding: 50px 10px;
+    border-radius: 5%;
+    box-shadow: 5px 5px 50px grey;
+}
+
+#card #imag{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-image: url(my\ face.png);
+    background-position: center;
+    background-size: cover;
+   
+}
+#card h2,h5{
+    text-transform: uppercase;
+
+}
+#card>h1{
+    font-size: 28px;
+    font-weight: 600;
+    color: firebrick;
+    
+}
+#card>h5{
+    font-size: 15px;
+}
+#card>h3{
+    font-size: 20px;
+    color: blue;
+}
+
+#card button{
+    
+    font-size: 15px;
+    width: 30%;
+    height: 10%;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    color: white;
+    background-color: #008CBA;
+}
+
